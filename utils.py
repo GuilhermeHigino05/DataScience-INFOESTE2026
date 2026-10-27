@@ -4,7 +4,7 @@
 import numpy as np
 
 
-class LinearRegression:
+class SingleLinearRegression:
     """Define uma regressão linear single simples"""
 
     def __init__(self, b0=0, b1=0):
