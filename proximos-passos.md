@@ -89,6 +89,17 @@ Otimização conecta Cálculo, Álgebra Linear e programação. Ao acompanhar a 
 
 Não é necessário dominar toda a matemática antes de programar. É melhor alternar teoria e prática: estudar um conceito, implementá-lo em um exemplo pequeno e voltar à teoria para entender o que o código está fazendo.
 
+## Fontes complementares e trilha de estudo
+
+Como guia visual da progressão do conteúdo, vale consultar o roadmap em [roadmap_ciencia_dados_ia.png](roadmap_ciencia_dados_ia.png). Ele ajuda a situar os pilares de Ciência de Dados e IA e a orientar o que estudar nas próximas aulas, mantendo a ordem lógica entre fundamentos, modelos, aplicações e aprofundamento.
+
+Além dos livros e temas já citados, duas fontes gratuitas e muito úteis podem complementar a formação:
+
+- [OSSU Data Science](https://github.com/ossu/data-science): uma iniciativa de "faculdade" livre, em inglês, que reúne materiais e videoaulas de universidades renomadas e cobre uma grande variedade de tópicos de ciência de dados, estatística, matemática, programação, aprendizado de máquina e IA. É uma boa opção para quem quer seguir uma trilha mais ampla e estruturada, sem depender de um único curso.
+- [Canal Téo Me Why — playlist de Machine Learning](https://www.youtube.com/playlist?list=PLvlkVRRKOYFTXcpttQSZmv1wDg7F3uH7o): oferece videoaulas gratuitas, bem didáticas e bastante completas sobre diversos tópicos de machine learning e aprendizado de máquina. Ela funciona muito bem como apoio prático para revisar conceitos, observar aplicações e reforçar a conexão entre teoria e implementação.
+
+Essas fontes se encaixam bem na sequência proposta: primeiro fundamentos e ferramentas, depois modelos e avaliação, e por fim aprofundamento em IA e aprendizado profundo. A ideia não é trocar a leitura e a prática, mas complementar a formação com materiais diferentes, em níveis e estilos variados.
+
 ## Ementa de leitura
 
 ### 1. *Python para Análise de Dados* — Wes McKinney
