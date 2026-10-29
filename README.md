@@ -25,10 +25,13 @@ repositório, abra a pasta raiz no VS Code e instale as dependências:
 
 ```bash
 python -m venv venv
+
 # Windows
 venv\Scripts\activate
+
 # Linux/macOS
 source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
