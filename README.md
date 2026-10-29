@@ -1,6 +1,5 @@
 # DataScience-INFOESTE2026
-
-Material didático da disciplina de Ciência de Dados e Inteligência Artificial.
+Material didático do curso de Ciência de Dados e Inteligência Artificial da INFOESTE 2026.
 
 ## Estrutura
 
@@ -11,7 +10,7 @@ aulas/
 	datasets/
 ```
 
-`aula01_final.ipynb` apresenta preparação e exploração de dados, regressão
+`aula01_final.ipynb` apresenta a primeira aula do curso e aborda preparação e exploração de dados, regressão
 linear, função de custo, derivadas, gradiente descendente e avaliação de
 modelos.
 
@@ -21,26 +20,37 @@ aplicação de classificação de sentimentos no IMDB.
 
 ## Como executar
 
-O projeto usa Python 3.13 ou superior e pode ser executado em um ambiente
-virtual. A partir da raiz do projeto:
+O projeto usa Python 3.13 ou superior. Para executar localmente, clone o
+repositório, abra a pasta raiz no VS Code e instale as dependências:
 
 ```bash
 python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/macOS
 source venv/bin/activate
-python -m pip install jupyter pandas numpy matplotlib seaborn scikit-learn torch datasets graphviz
-jupyter notebook
+pip install -r requirements.txt
 ```
 
-No Arch Linux, a renderização do diagrama Graphviz também exige o executável
-de sistema:
+Os notebooks das aulas usam `pathlib` para localizar automaticamente a pasta
+`aulas/datasets`. Ao executar a célula de configuração, o notebook imprime o
+caminho encontrado. Se a pasta ou algum arquivo não for encontrado, confira se
+o repositório foi clonado por completo e se o notebook está sendo executado
+com a pasta raiz aberta no VS Code.
 
-```bash
-sudo pacman -S graphviz
+### Google Colab
+
+No Colab, clone o repositório antes de executar as células dos notebooks:
+
+```python
+!git clone https://github.com/GuilhermeHigino05/DataScience-INFOESTE2026.git
+%cd /content/DataScience-INFOESTE2026
 ```
 
-Abra o notebook desejado dentro de `aulas/`. Os datasets usados pelos
-notebooks estão em `aulas/datasets/`, e os caminhos relativos já partem dessa
-localização.
+Depois, abra o notebook dentro da pasta `aulas`. Se o caminho dos datasets
+ainda não for encontrado, verifique se o clone terminou e se a pasta
+`aulas/datasets` está presente. O Colab pode iniciar em outra pasta, por isso o
+`%cd` é importante.
 
 ## Ordem recomendada
 
